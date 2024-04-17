@@ -1,0 +1,148 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/DependabotTimeoutRepro/"
+    schedule:
+      interval: "daily"
+      time: "00:00"
+    open-pull-requests-limit: 5
+    target-branch: "main"
+    pull-request-branch-name:
+      # waiting for https://github.com/dependabot/dependabot-core/issues/396
+      separator: "-"
+    commit-message:
+      # Dependabot updates https://www.wrike.com/open.htm?id=1038530985
+      prefix: "WR-1038530985 "
+    groups:
+
+      Accusoft:
+        patterns:
+          - "Accusoft*"
+
+      AspNetCore.HealthChecks:
+        patterns:
+          - "AspNetCore.HealthChecks*"
+
+      Autofac:
+        patterns:
+          - "Autofac*"
+
+      AutoMapper:
+        patterns:
+          - "AutoMapper*"
+
+      Castle.Core:
+        patterns:
+          - "Castle.Core*"
+
+      DevExpress:
+        patterns:
+          - "DevExpress*"
+
+      DocumentFormat.OpenXml:
+        patterns:
+          - "DocumentFormat.OpenXml*"
+        #remove after Net8 migration
+        update-types:
+          - "minor"
+          - "patch"
+
+      ExcelDataReader:
+        patterns:
+          - "ExcelDataReader*"
+
+      FluentAssertions:
+        patterns:
+          - "FluentAssertions*"
+
+      GoogleApis:
+        patterns:
+          - "Google.Apis*"
+
+      MassTransit:
+        patterns:
+          - "MassTransit*"
+
+      MediatR:
+        patterns:
+          - "MediatR*"
+
+      Microsoft.AspNet.WebApi:
+        patterns:
+          - "Microsoft.AspNet.WebApi*"
+
+      Microsoft.AspNetCore:
+        patterns:
+          - "Microsoft.AspNetCore*"
+        #remove after Net8 migration
+        update-types:
+          - "minor"
+          - "patch"
+
+      Microsoft.CodeAnalysis:
+        patterns:
+          - "Microsoft.CodeAnalysis*"
+        update-types:
+          - "major"
+
+      Microsoft.EntityFrameworkCore:
+        patterns:
+          - "Microsoft.EntityFrameworkCore*"
+        #remove after Net8 migration
+        update-types:
+          - "minor"
+          - "patch"
+
+      Microsoft.Extensions:
+        patterns:
+          - "Microsoft.Extensions*"
+          - "System.Security.Cryptography*"
+
+      IdentityModel:
+        patterns:
+          - "Microsoft.IdentityModel*"
+          - "System.IdentityModel.Tokens.Jwt"
+
+      Microsoft.Identity:
+        patterns:
+          - "Microsoft.Identity.*"
+
+      Newtonsoft:
+        patterns:
+          - "Newtonsoft*"
+
+      NLog:
+        patterns:
+          - "NLog*"
+
+      prometheus-net:
+        patterns:
+          - "prometheus-net*"
+
+      Quartz:
+        patterns:
+          - "Quartz*"
+
+      Refit:
+        patterns:
+          - "Refit*"
+
+      Sentry:
+        patterns:
+          - "Sentry*"
+
+      Swashbuckle:
+        patterns:
+          - "Swashbuckle*"
+
+      System.ServiceModel:
+        patterns:
+          - "System.ServiceModel*"
+
+      TestableIO.System.IO.Abstractions:
+        patterns:
+          - "TestableIO.System.IO.Abstractions*"
+
+      WebApiContrib:
+        patterns:
+          - "WebApiContrib*"
