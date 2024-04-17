@@ -18,17 +18,11 @@
 		<PackageReference Include="AutoMapper.Extensions.EnumMapping" />
 		<PackageReference Include="AutoMapper" />
 		<PackageReference Include="Azure.Storage.Blobs" />
-		<PackageReference Include="BalticAmadeus.FluentMdx" />
 		<PackageReference Include="BitMiracle.LibTiff.NET" />
 		<PackageReference Include="Castle.Core.AsyncInterceptor" />
 		<PackageReference Include="Castle.Core" />
 		<PackageReference Include="CommunityToolkit.Diagnostics" />
 		<PackageReference Include="CsvHelper" />
-		<PackageReference Include="DevExpress.AspNetCore.RichEdit" />
-		<PackageReference Include="DevExpress.AspNetCore.Spreadsheet" />
-		<PackageReference Include="DevExpress.Document.Processor" />
-		<PackageReference Include="DevExpress.Spreadsheet.Core" />
-		<PackageReference Include="DevExtreme.AspNet.Core" />
 		<PackageReference Include="DevExtreme.AspNet.Data" />
 		<PackageReference Include="DocumentFormat.OpenXml.Extensions" />
 		<PackageReference Include="DocumentFormat.OpenXml" />
@@ -44,7 +38,6 @@
 		<PackageReference Include="FluentAssertions" />
 		<PackageReference Include="FluentValidation" />
 		<PackageReference Include="FoolProof.Core" />
-		<PackageReference Include="GeoIP_Lite" />
 		<PackageReference Include="Google.Apis.Analytics.v3" />
 		<PackageReference Include="Google.Apis.Auth" />
 		<PackageReference Include="HtmlAgilityPack" />
@@ -117,7 +110,6 @@
 		<PackageReference Include="NUnit" />
 		<PackageReference Include="NUnit3TestAdapter" />
 		<PackageReference Include="OneOf" />
-		<PackageReference Include="OutlookMsgReader" />
 		<PackageReference Include="PDFTron.NETCore.Windows.x64" />
 		<PackageReference Include="Polly.Extensions.Http" />
 		<PackageReference Include="Polly" />
@@ -125,7 +117,6 @@
 		<PackageReference Include="prometheus-net.AspNetCore.HealthChecks" />
 		<PackageReference Include="prometheus-net.AspNetCore" />
 		<PackageReference Include="prometheus-net.DotNetRuntime" />
-		<PackageReference Include="Ps2Pdf" />
 		<PackageReference Include="Quartz.Jobs" />
 		<PackageReference Include="Quartz.Plugins" />
 		<PackageReference Include="Quartz" />
@@ -142,7 +133,6 @@
 		<PackageReference Include="Simple.Specifications" />
 		<PackageReference Include="SkiaSharp" />
 		<PackageReference Include="StackExchange.Redis" />
-		<PackageReference Include="Standard.Xaml" />
 		<PackageReference Include="Sustainsys.Saml2" />
 		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" />
 		<PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" />
@@ -167,7 +157,6 @@
 		<PackageReference Include="TestableIO.System.IO.Abstractions.Wrappers" />
 		<PackageReference Include="TngTech.ArchUnitNET.NUnit" />
 		<PackageReference Include="UAParser" />
-		<PackageReference Include="UiPath.Workflow.Testing" />
 		<PackageReference Include="UiPath.Workflow" />
 		<PackageReference Include="Verify.NUnit" />
 		<PackageReference Include="Verify.SourceGenerators" />
